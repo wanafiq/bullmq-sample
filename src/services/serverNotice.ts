@@ -1,6 +1,6 @@
 // import { JobsOptions } from "bullmq"
 
-import usersData from "../usersData"
+import usersData from "../../data/usersData"
 import { createQueue } from "../batch/serverNoticeQueue"
 import { ServerNoticeJob, ServerNoticeJobModel } from "../models/ServerNotice"
 
